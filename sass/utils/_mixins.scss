@@ -9,3 +9,13 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin btn($bg-color: $accent-color) {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  border: transparent;
+  background-color: $bg-color;
+}

@@ -32,8 +32,6 @@ img {
   text-align: center;
 }
 
-/* Links*/
-
 .link {
   text-decoration: none;
   color: $title-text-color;
@@ -46,8 +44,4 @@ img {
   &:focus {
     color: $accent-color;
   }
-}
-
-.link.current {
-  color: $accent-color;
 }
